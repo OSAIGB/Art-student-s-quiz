@@ -1,20 +1,30 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Art Student Quiz
 
-# Run and deploy your AI Studio app
+A comprehensive quiz application for art students covering subjects like Government, CRS, and Literature. It features a 30-minute timer, progress tracking, and the ability to save progress.
 
-This contains everything you need to run your app locally.
+This project was built with React and Tailwind CSS and is ready to be deployed as a static site.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1ZJ9tnN-O6j3DTYhuH8v6eX-_K0IoYCTa
+## How to Deploy to GitHub Pages
 
-## Run Locally
+You can easily deploy this application for free using GitHub Pages.
 
-**Prerequisites:**  Node.js
+1.  **Create a GitHub Repository:**
+    *   Go to [GitHub](https://github.com/new) and create a new public repository. Give it a name, for example, `art-student-quiz`.
 
+2.  **Upload the Project Files:**
+    *   Upload all the files from this project (`index.html`, `index.tsx`, `App.tsx`, `metadata.json`, and the `components`, `constants`, `types.ts` files/folders) to your new repository.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+3.  **Enable GitHub Pages:**
+    *   In your repository, go to the **Settings** tab.
+    *   In the left sidebar, click on **Pages**.
+    *   Under "Build and deployment", for the **Source**, select **Deploy from a branch**.
+    *   Choose the branch you pushed your code to (usually `main` or `master`).
+    *   For the folder, select **`/ (root)`**.
+    *   Click **Save**.
+
+4.  **View Your Live Site:**
+    *   GitHub will start a deployment process. It may take a minute or two.
+    *   Once it's done, your site will be live at a URL like: `https://<your-username>.github.io/<your-repo-name>/`.
+    *   The URL will be displayed at the top of the GitHub Pages settings page.
+
+That's it! Your quiz application is now live on the web.
