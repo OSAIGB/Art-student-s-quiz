@@ -1,0 +1,5 @@
+{
+  "name": "Art Student Quiz",
+  "description": "A comprehensive quiz application for art students covering subjects like Government, CRS, and Literature. It features a 30-minute timer, progress tracking, and the ability to save progress.",
+  "requestFramePermissions": []
+}
